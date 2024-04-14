@@ -15,3 +15,13 @@ Sentiment Analysis is a process of extracting opinions that have different polar
 We will carry out sentiment analysis with R in this project. The dataset we will use will be provided by the R package 'janeaustenR'.
 
 To build our project on sentiment analysis, we will use the tidytext package comprising sentiment lexicons present in the dataset of 'sentiments'.
+```
+#load the libraries
+library(bookdown)
+suppressPackageStartupMessages(require(tidyverse))
+library(tidytext)
+#check sentiments
+dim(sentiments)
+head(sentiments)
+
+````
